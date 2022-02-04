@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
+import Login from './Login/login';
 
 import './Navbar.scss';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [login, setLogin] = useState(false);
 
   return (
   <div className='navbar'>
@@ -21,10 +23,12 @@ const Navbar = () => {
       <li className="p__opensans"><a href="#contacts">Contact</a></li>
     </ul>
     <div className="navbar__login">
-      <a href="#login" className='p__opensans'>Login / Register</a>
+      <a href="#login" className='p__opensans' onClick={() => setLogin(true)}>Login / Register</a>
       <span />
       <a href="#login" className='p__opensans'>Book Table</a>
     </div>
+
+    {login && <Login handleLogin={() => setLogin(false)} />}
 
     <div className="navbar__smallscreen">
       <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)}/>
