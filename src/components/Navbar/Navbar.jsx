@@ -18,12 +18,12 @@ const Navbar = () => {
       <li className="p__opensans"><a href="#about">About</a></li>
       <li className="p__opensans"><a href="#menu">Menu</a></li>
       <li className="p__opensans"><a href="#awards">Awards</a></li>
-      <li className="p__opensans"><a href="#contacts">Contacts</a></li>
+      <li className="p__opensans"><a href="#contacts">Contact</a></li>
     </ul>
     <div className="navbar__login">
       <a href="#login" className='p__opensans'>Login / Register</a>
       <span />
-      <a href="/" className='p__opensans'>Book a Table</a>
+      <a href="#login" className='p__opensans'>Book Table</a>
     </div>
 
     <div className="navbar__smallscreen">
