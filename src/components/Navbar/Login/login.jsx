@@ -9,7 +9,7 @@ function TextInput({ type = 'text', label }) {
     return (
       <div className="textbox">
         <input type={type} value={value} onChange={(e) => setValue(e.target.value)} />
-        <label className={value && 'filled'} htmlFor={label}>{label}</label>
+        <label className={value ? 'label label-hover' : 'label'} htmlFor={label}>{label}</label>
       </div>
     );
 }
@@ -31,7 +31,7 @@ const Login = ({handleLogin}) => {
               <TextInput label="Name / Email" />
               <TextInput label="Password" />
               <button type="button" className="custom__button" onClick={handleLogin}>Login</button>
-              <p>Don't have an account ? &nbsp;<span onClick={() => setIsLogin(false)}>Sign Up</span></p>
+              <p>Don't have an account &nbsp;<span onClick={() => setIsLogin(false)}>Sign Up</span></p>
             </div>}
 
             {!isLogin && <div className="login">
@@ -40,8 +40,8 @@ const Login = ({handleLogin}) => {
               <TextInput label="Enter Email" />
               <TextInput label="Enter Password" />
               <TextInput label="Repeat Password" />
-              <button type="button" className="custom__button" onClick={() => setIsLogin(true)}>Register</button>
-              <p>Already have an account ? &nbsp;<span onClick={() => setIsLogin(true)}>Log In</span></p>
+              <button type="button" className="custom__button" onClick={handleLogin}>Register</button>
+              <p>Already have an account &nbsp;<span onClick={() => setIsLogin(true)}>Log In</span></p>
             </div>}
           </div>
         </div>
