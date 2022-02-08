@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/restaurant-ui-ux/static/css/main.6782e354.css",
+    "main.js": "/restaurant-ui-ux/static/js/main.04756a8b.js",
+    "static/media/meal.mp4": "/restaurant-ui-ux/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/bg.png": "/restaurant-ui-ux/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/welcome.png": "/restaurant-ui-ux/static/media/welcome.d724eb984456d9c97470.png",
+    "static/media/findus.png": "/restaurant-ui-ux/static/media/findus.585c393ccd3671513743.png",
+    "static/media/laurels.png": "/restaurant-ui-ux/static/media/laurels.e760828692795d4aafd7.png",
+    "static/media/chef.png": "/restaurant-ui-ux/static/media/chef.02d6c5b61bfdc70303b4.png",
+    "static/media/menu.png": "/restaurant-ui-ux/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/gallery04.png": "/restaurant-ui-ux/static/media/gallery04.c36a695f8a3b9d311106.png",
+    "static/media/gallery03.png": "/restaurant-ui-ux/static/media/gallery03.b2d50180e8590d4dd330.png",
+    "static/media/gallery02.png": "/restaurant-ui-ux/static/media/gallery02.27663bd9016b72ccd328.png",
+    "static/media/gallery01.png": "/restaurant-ui-ux/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/knife.png": "/restaurant-ui-ux/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/overlaybg.png": "/restaurant-ui-ux/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/G.png": "/restaurant-ui-ux/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/logo.png": "/restaurant-ui-ux/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/restaurant-ui-ux/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/restaurant-ui-ux/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/restaurant-ui-ux/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/restaurant-ui-ux/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/restaurant-ui-ux/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "static/media/spoon.svg": "/restaurant-ui-ux/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "index.html": "/restaurant-ui-ux/index.html",
+    "main.6782e354.css.map": "/restaurant-ui-ux/static/css/main.6782e354.css.map",
+    "main.04756a8b.js.map": "/restaurant-ui-ux/static/js/main.04756a8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6782e354.css",
+    "static/js/main.04756a8b.js"
+  ]
+}
